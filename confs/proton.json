@@ -1,0 +1,14 @@
+[
+  { "do": "go",
+    "by": "firefox",
+    "loc": "http://account.proton.me/login",
+    "folder": "proton"},
+  { "do": "post",
+    "loc": "//*[@id=\"username\"]",
+    "file": "username"},
+  { "do": "post",
+    "loc": "//*[@id=\"password\"]",
+    "file": "12345"},
+  { "do": "click",
+    "loc": "/html/body/div[1]/div[3]/div[1]/div/main/div[2]/form/button"}
+]
