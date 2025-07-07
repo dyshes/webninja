@@ -5,3 +5,6 @@ Selenium. Instead of directly writing code, you could write up a JSON file conta
 any website. I designed it to be the easiest way to create web parsers and robots.
 
 # setup
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
