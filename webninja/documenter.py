@@ -5,7 +5,7 @@ import xlsxwriter
 from PIL import Image
 import os
 import json
-from profiler import get_keys
+from .profiler import get_keys
 import fcntl
 import subprocess
 

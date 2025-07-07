@@ -3,16 +3,16 @@ import json
 import os
 import sys
 from time import sleep
-import reader
-import surfer as sf
-import bandit as bd
-import profiler as pf
-import documenter as doc
+from . import reader
+from . import surfer as sf
+from . import bandit as bd
+from . import profiler as pf
+from . import documenter as doc
 from math import inf
-from mfa import init_listener, mfa
-import phone_server as phs
+from .mfa import init_listener, mfa
+from . import phone_server as phs
 from bs4 import BeautifulSoup
-from constant import _const  # constant protection
+from .constant import _const  # constant protection
 sys.modules[__name__] = _const()
 import __main__ as const
 

@@ -1,7 +1,7 @@
 import multiprocessing as mp
 from time import time
 import json
-import surfer as sf
+from . import surfer as sf
 
 
 def init_listener():

@@ -7,11 +7,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep, time
 from bs4 import BeautifulSoup
-import surfer as sf
-from mfa import mfa
-import documenter as doc
-from reader import view_extractor as read
-import profiler
+from . import surfer as sf
+from .mfa import mfa
+from . import documenter as doc
+from .reader import view_extractor as read
+from . import profiler
 import re
 
 
