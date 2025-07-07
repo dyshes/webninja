@@ -59,7 +59,9 @@ def ftb(fold_file, ext="", extra=""):
 
 def inc(name, to_inc=True):
     pwd = get_pwd()
-    filename = f'{pwd}/inc/{name}_inc.txt'
+    inc_dir = f'{pwd}/inc'
+    os.makedirs(inc_dir, exist_ok=True)
+    filename = f'{inc_dir}/{name}_inc.txt'
     if not os.path.exists(filename):
         with open(filename, 'w') as file:
             file.write('0')
