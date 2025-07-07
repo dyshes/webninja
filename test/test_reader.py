@@ -1,11 +1,8 @@
 import pytest
 from bs4 import BeautifulSoup
-import os
-import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
-from reader import _get_strings, _get_mems
-from reader import profile_generator, base_exp
-from reader import get_detail
+from webninja.reader import _get_strings, _get_mems
+from webninja.reader import profile_generator, base_exp
+from webninja.reader import get_detail
 
 
 @pytest.fixture

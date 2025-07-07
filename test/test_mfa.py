@@ -1,9 +1,6 @@
 import pytest
-import os
-import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
-from mfa import mfa, listener
-import documenter as doc
+from webninja.mfa import mfa, listener
+from webninja import documenter as doc
 import time
 import multiprocessing as mp
 

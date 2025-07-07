@@ -1,9 +1,6 @@
 import pytest
-import os
-import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
-from profiler import _get_price, link_filter, price_filter
-from profiler import homogenize, get_keys, map_profile
+from webninja.profiler import _get_price, link_filter, price_filter
+from webninja.profiler import homogenize, get_keys, map_profile
 
 def test_get_price():
     # Test case 1: Extracting price from a string with a valid price format
