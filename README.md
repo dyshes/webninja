@@ -1,11 +1,5 @@
 # WebNinja
 
-
-# setup
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-=======
 WebNinja is a lightweight automation and scraping toolkit. Instead of writing
 Python code for each task, you describe the steps to perform in a JSON
 configuration file. The parser interprets this file and uses Selenium,
@@ -79,3 +73,6 @@ pytest
 
 The tests exercise the Selenium helpers, multiprocessing utilities and the HTML
 parsing logic.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
