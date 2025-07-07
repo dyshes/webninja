@@ -1,15 +1,15 @@
 from requests_html import HTMLSession
 import requests
-import reader
-import documenter
-from profiler import get_keys
+from . import reader
+from . import documenter
+from .profiler import get_keys
 import shutil # to save it locally
 import re
 import os
 import json
 from time import sleep
 import urllib.parse
-from reader import view_extractor as read
+from .reader import view_extractor as read
 
 
 def get_page(url, render=False):
